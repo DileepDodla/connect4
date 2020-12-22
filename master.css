@@ -1,0 +1,39 @@
+/* Colors - #f5f5f5 #555777*/
+
+@font-face {
+    font-family: Langar;
+    src: url('fonts/Langar-Regular.ttf');
+}
+
+body {
+    background-color: rgb(38, 35, 53);
+    font-family: 'Langar', 'cursive';
+    text-align: center;
+    color: #848bb9;
+}
+
+.board {
+    margin: auto;
+}
+
+.board button {
+    height: 70px;
+    width: 70px;
+    margin: 2px;
+    background-color: rgb(64, 56, 74);
+    border: 5px solid gray;
+    border-radius: 50%;
+    box-shadow: 0 0 3px white;
+}
+
+.current-player {
+    color: chartreuse;
+}
+
+#musicIconButton {
+    cursor: pointer;
+}
+
+#winnerModal {
+    background-image: url("images/confetti-1.gif");
+}
